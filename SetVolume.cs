@@ -5,6 +5,8 @@ using UnityEngine.Audio;
 
 public class SetVolume : MonoBehaviour
 {
+    //Attach this file to a Unity Slider and set the min to 0.0001
+    //Be sure to make an audio mixer and expose the main volume
     public AudioMixer mixer;
 
     public void SetLevel(float sliderValue)
